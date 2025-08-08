@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Data Siswa & Nilai</title>
 </head>
 <body>
+    <script> 
+    // Soal Nomor 1
+    console.log("");
+    console.log("✦•······················•✦•·················•✦");
+    console.log("PROGRAM DATA SISWA & NILAI");
+    console.log("✦•······················•✦•·················•✦");
+    const nama_lengkap_siswa = "Navyza Marcha Vega";
+    console.log("Nama Lengkap Siswa : " + nama_lengkap_siswa);
+    const usia_siswa = 17;                                   
+    console.log("Usia Siswa : " + usia_siswa);
+    status_siswa = "true";                                     
+    console.log("Status Siswa : " + status_siswa);
+    console.log("✦•······················•✦•·················•✦");
+    // Soal Nomor 2
+    const nilaiTugas = 85;
+    const nilaiUts = 85;
+    const nilaiUas = 90;
+
+    const nilaiAkhir = (nilaiTugas * 0.3) + (nilaiUts * 0.3) + (nilaiUas * 0.4);
+    console.log("Nilai Akhir : " + nilaiAkhir);
+    // Soal Nomor 3
+    console.log("STATUS KELULUSAN");
+    console.log("✦•······················•✦•·················•✦");
     
+    let statusKelulusan;
+    
+    if (nilaiAkhir >= 75) {
+        statusKelulusan = "Lulus";
+    } else {
+        statusKelulusan = "Remedial"; 
+    }
+    
+    console.log("Status Kelulusan : " + statusKelulusan);
+    console.log("✦•······················•✦•·················•✦");
+    console.log("PROGRAM SELESAI");
+    console.log("✦•······················•✦•·················•✦");
+    
+    </script>
 </body>
 </html>
